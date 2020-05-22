@@ -1,7 +1,11 @@
 alert("Are u viewing this site on a mobile?..Only a empty space appears?Dont worry Just Turn Your Device to Landscape Mode!")
 
 var name=prompt("Enter Your Name:")
-$('#name').html(name+"'s score: <span id='ps'>0</span>");
+if(name==="" || name==="null"){
+	$('#name').html("nameless's score: <span id='ps'>0</span>");
+}else{
+	$('#name').html(name+"'s score: <span id='ps'>0</span>");
+}
 
 var imgs=["rock.png","paper.png","scissors.png"]
 var ps=$('#ps');
