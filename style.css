@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-@media(orientation:portrait){
+@media(orientation: portrait){
 	body{
 		visibility: hidden;
 	}
@@ -23,9 +23,9 @@ h3{
 	display: flex;
 	justify-content: space-around;
 	margin-top: 30px; 
-	border:1px solid white;
+	border: 1px solid white;
 	padding: 10px 20px 10px 20px ;
-	color:white;
+	color: white;
 }
 body{
 	background: #16222A; 
@@ -56,7 +56,7 @@ button{
 	border-radius: 5px;
 	background-color: #a1b1d1;
 	color: #3A6073;
-	border:1px solid black;
+	border: 1px solid black;
 	transition: transform 1s;
 }
 #reset{
